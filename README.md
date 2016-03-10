@@ -34,7 +34,7 @@ var values = mec.move('forward');
 
 ### Or as a callback
 
-``js
+```js
 mec.move('forward', function(data){
     console.log(data);
   });
@@ -53,8 +53,8 @@ mec.move('forward', function(data){
 ### Use the values to set your motors.
 
 ```js
- This part will be different based on what robotics library
- you are using, but it gives you the idea.
+ //This part will be different based on what robotics library
+ //you are using, but it gives you the idea.
 
 left_front_motor.speed(values.LF);
 left_back_motor.speed(values.LB);
