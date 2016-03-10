@@ -28,7 +28,7 @@ var mec = new Mecanum({
 
 ### Call as a function
 
-``js
+```js
 var values = mec.move('forward');
 ```
 
