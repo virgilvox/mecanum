@@ -50,6 +50,22 @@ mec.move('forward', function(data){
 }
 ```
 
+### Directions
+
+```coffee
+        'forward'
+        'backward'
+        'left'
+        'right'
+        'ne'
+        'nw'
+        'se'
+        'sw'
+        'stop'
+        'cw'
+        'ccw'
+```
+
 ### Use the values to set your motors.
 
 ```js
